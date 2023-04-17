@@ -1,6 +1,6 @@
 import tkinter as Tk
 def calculate():
-    prin = int(principal.get())
+    principal = int(principal.get())
     rate=str(rate.get())
     month=str(month.get())
     EMI=prin*rate*(pow((1+rate),month)/(pow((1+rate),month)-1))
